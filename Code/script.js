@@ -13,13 +13,10 @@ function clicked(){
     add = 1;
     var b = bBadge.innerHTML = add;
 
-  }
-
-
-  if (add >= 1){
-    console.log("3 tested")
+  }else{
     clickedTwice();
   }
+
 
 }
 
